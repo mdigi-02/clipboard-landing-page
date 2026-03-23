@@ -1,0 +1,7 @@
+.c-logo{
+  position: absolute;
+  z-index: 2
+}
+.header-background{
+  z-index: 1;
+}
