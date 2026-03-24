@@ -14,3 +14,21 @@ body{
 .header-background{
   z-index: 1;
 }
+
+p {
+  font-family: Bai Jamjuree;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-title,
+.highlight-title,
+.features-section-title,
+.functions-bottom-left-section-title,
+.functions-bottom-middle-section-title,
+.functions-bottom-right-section-title {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
