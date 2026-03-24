@@ -1,0 +1,25 @@
+.download-button-ios,
+.download-button-mac {
+  font-family: Baj Jamjuree;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: opacity 0.3s ease;
+}
+
+.download-button-ios:hover,
+.download-button-mac:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.download-button-ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 8px 20px hsl(171, 66%, 44%, 0.3);
+}
+
+.download-button-mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 8px 20px hsla(235, 38%, 6%, 0.3);
+}
