@@ -25,9 +25,7 @@ p {
 .header-title,
 .highlight-title,
 .features-section-title,
-.functions-bottom-left-section-title,
-.functions-bottom-middle-section-title,
-.functions-bottom-right-section-title {
+.functions-section-title {
   color: black;
   font-size: 22px;
   font-weight: 500;
