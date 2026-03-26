@@ -10,7 +10,6 @@ p {
 }
 
 .header-title,
-.highlight-title,
 .functions-section-title {
   color: hsl(210, 10%, 33%);
   font-size: 22px;
@@ -50,4 +49,16 @@ p {
 
 .features-section-description {
   line-height: 1.9;
+}
+
+.highlight-title,
+.highlight-description {
+  text-align: center;
+}
+
+.highlight-title {
+  color: hsl(210, 10%, 33%);
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1px;
 }
