@@ -1,0 +1,88 @@
+.sponsor-wrapper  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.download-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.highlight-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 28px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.highlight-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 20px;
+}
+
+.highlight-description {
+  max-width: 680px;
+  font-size: 18px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 150px;
+  margin-top: 150px;
+  background-color: hsl(216, 17%, 97%);
+}
+
+.c-logo-footer {
+  width: 54px;
+  margin-left: 164px;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  min-width: 700px;
+  gap: 20px;
+  margin-left: 28px;
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(192, 2%, 54%);
+  width: 170px;
+}
+
+.footer-link:hover {
+  color: rgb(38, 186, 164);
+  cursor: pointer;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+  filter: invert(65%) sepia(19%) saturate(1490%) hue-rotate(122deg) brightness(91%) contrast(85%);
+  cursor: pointer;
+}
+
+.footer-icons-container {
+  margin-right: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
