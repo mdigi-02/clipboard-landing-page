@@ -67,6 +67,18 @@
   width: 170px;
 }
 
+.footer-link:hover {
+  color: rgb(38, 186, 164);
+  cursor: pointer;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+  filter: invert(65%) sepia(19%) saturate(1490%) hue-rotate(122deg) brightness(91%) contrast(85%);
+  cursor: pointer;
+}
+
 .footer-icons-container {
   margin-right: 164px;
   display: flex;
