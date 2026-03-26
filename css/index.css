@@ -24,9 +24,47 @@ p {
 
 .header-title,
 .highlight-title,
-.features-section-title,
 .functions-section-title {
-  color: black;
+  color: hsl(210, 10%, 33%);
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.features-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.computer-image {
+  display: block;
+  position: relative;
+  right: 32px;
+}
+
+.features-section-image-wrapper {
+  
+}
+
+.features-section-text-content-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 54px;
+  margin-left: 78px;
+  padding-top: 68px;
+}
+
+.features-section-text-content-wrapper {
+  flex: 0;
+  width: 340px;
+}
+
+.features-section-title {
+  color: hsl(210, 10%, 33%);
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.features-section-description {
+line-height: 1.9;
 }
