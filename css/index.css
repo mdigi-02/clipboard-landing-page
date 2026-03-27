@@ -44,6 +44,11 @@ p {
   line-height: 1.9;
 }
 
+.image-devices {
+  display: block;
+  margin: 0 auto;
+}
+
 .functions-section-container {
   display: flex;
   justify-content: center;
@@ -67,7 +72,7 @@ p {
 
 .functions-section-description {
   text-align: center;
-  line-height: 1.8;
+  line-height: 1.9;
   margin-top: 18px;
 }
 
